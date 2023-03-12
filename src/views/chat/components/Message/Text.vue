@@ -39,8 +39,8 @@ const wrapClass = computed(() => {
     'min-w-[20px]',
     'rounded-md',
     isMobile.value ? 'p-2' : 'px-3 py-2',
-    props.inversion ? 'bg-[#D250F3]' : 'bg-[#76BCCD]',
-    props.inversion ? 'dark:bg-[#D250F3]' : 'dark:bg-[#76BCCD]',
+    props.inversion ? 'bg-[#D250F3]' : 'bg-[#0099CC]',
+    props.inversion ? 'dark:bg-[#D250F3]' : 'dark:bg-[#0099CC]',
     { 'text-red-500': props.error },
   ]
 })
